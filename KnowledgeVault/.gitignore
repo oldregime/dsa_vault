@@ -1,0 +1,28 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.obsidian/graph.json
+
+# Anki exports
+05-anki-cards/exported-decks/*.apkg
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.cache/
+
+# OS generated
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+*_backup_*
+*.bak
