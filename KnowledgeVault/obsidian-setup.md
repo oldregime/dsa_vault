@@ -31,7 +31,7 @@
 - [ ] **Graph view** - For visualizing connections
 - [ ] **Search** - For finding notes quickly
 - [ ] **Tag pane** - For organizing by tags
-- [ ] done
+
 
 ### Community Plugins (Install)
 1. **Calendar** - Visual daily notes navigation

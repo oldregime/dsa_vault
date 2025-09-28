@@ -1,3 +1,6 @@
 {
-  "autorun": true
+  "autorun": true,
+  "template": "04-resources/templates/daily-template",
+  "format": "",
+  "folder": "01-daily-notes/2025"
 }
