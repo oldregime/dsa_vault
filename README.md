@@ -2,7 +2,6 @@
 
 > *"A systematic approach to mastering Data Structures & Algorithms through organized knowledge management and consistent practice"*
 
-[![Last Commit](https://img.shields.io/github/last-commit/oldregime/LearnignDSA)](https://github.com/oldregime/LearnignDSA)
 [![Languages](https://img.shields.io/badge/Languages-Java%20%7C%20Python-blue)](https://github.com/oldregime/LearnignDSA)
 [![Learning Status](https://img.shields.io/badge/Status-Active%20Learning-green)](https://github.com/oldregime/LearnignDSA)
 
@@ -192,3 +191,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 > **Last Updated**: September 23, 2025  
 > **Learning Days**: 30+  
 > **Commitment**: Daily practice and continuous improvement
+
