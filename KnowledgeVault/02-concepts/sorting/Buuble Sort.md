@@ -20,6 +20,9 @@ The algorithm is named "Bubble Sort" because smaller elements "bubble up" to the
 3. If they are in wrong order, swap them
 4. Continue until the end of array (one pass complete)
 5. Repeat passes until no swaps are needed
+![[Bubblesortimg1.png.png]]
+![[bubblesortimg2.png.png]]
+![[Pasted image 20250924173844.png]]
 
 ### Example Walk through:
 ```
@@ -37,27 +40,10 @@ Pass 6: [11, 12, 22, 25, 34, 64, 90] (No swaps - sorted!)
 
 ### Python
 ```python
-def bubble_sort(arr):
-    n = len(arr)
-    # Outer loop for passes through the array
-    for i in range(n):
-        # Flag to optimize - if no swaps occur, array is sorted
-        swapped = False
-        
-        # Inner loop for comparisons and swaps in each pass
-        # The last 'i' elements are already in place
-        for j in range(0, n - i - 1):
-            # Compare adjacent elements
-            if arr[j] > arr[j + 1]:
-                # Swap if they are in the wrong order
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                swapped = True
-        
-        # If no swapping occurred, array is sorted
-        if not swapped:
-            break
-            
-    return arr
+        for i in range(n):
+            for j in range(0,n-i-1):
+                if arr[j] > arr[j+1]:
+                    arr[j+1],arr[j] = arr[j],arr[j+1]
 ```
 
 ### Java
