@@ -1,4 +1,3 @@
-
 public class basic {
 
     static void bubblesort(int arr[], int n) {
@@ -6,15 +5,15 @@ public class basic {
         boolean swapcheck = false;
         
 
-        
+    
         for ( k = 0; k < n - 1; k++) {
             swapcheck = false ;
             for ( k2 = 0; k2 < n - k - 1; k2++) {
                 //swap
-                if (arr[k2]> arr[k]) {
+                if (arr[k2] > arr[k2 + 1]) {  // Should compare adjacent elements
                     temp = arr[k2];
-                    arr[k2] = arr[k];
-                    arr[k] = temp;
+                    arr[k2] = arr[k2 + 1];     // Fix the swapping logic
+                    arr[k2 + 1] = temp;
                     swapcheck = true;
                 }
                 
