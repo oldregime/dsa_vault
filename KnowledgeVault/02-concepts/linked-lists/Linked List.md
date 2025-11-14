@@ -14,7 +14,7 @@ Real-world analogy: Think of a treasure hunt where each clue points to the next 
 
 ## Visual intuition
 
-![[link1.webp]]
+![[linklist.webp]]
 
 
 
