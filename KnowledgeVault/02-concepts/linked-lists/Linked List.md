@@ -14,7 +14,7 @@ Real-world analogy: Think of a treasure hunt where each clue points to the next 
 
 ## Visual intuition
 
-![[linklist.webp]]
+![[link1.webp]]
 
 
 
@@ -81,7 +81,10 @@ Contract notes:
 - Find previous node of target; prev.next = target.next
 - Time: O(n)
 
-7) Search by value
+7) Search by value]'
+8) ']/;]]]]'
+9) ]]]]][
+10) ][;''/;/.]]
 - Traverse and compare; return index or node
 - Time: O(n)
 
