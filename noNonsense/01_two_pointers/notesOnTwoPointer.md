@@ -31,5 +31,41 @@ error :
         1. no decreasing and rather increasing indice on j 
 
 
-points to remember:
-    
+Event : 
+i was solving moveZeroes question i was getting wrong array as i was disturbing the array of non zero elements so now i will learn other method to implemtnt for loop    
+
+✅ The ONLY 3 Things You Actually Need to Learn
+🔑 1️⃣ How pointers START
+
+Start together
+
+Start at both ends
+
+Start at different speeds
+
+🔑 2️⃣ How pointers MOVE
+
+Move forward
+
+Move backward
+
+Move conditionally
+
+Move at different speeds
+
+🔑 3️⃣ When pointers STOP
+
+When they meet
+
+When they cross
+
+When window breaks
+
+When condition fails
+
+
+
+🟢 1. Opposite Direction Pointers
+🟡 2. Same Direction (Fast–Slow)
+🔵 3. Sliding Window
+🟣 4. Fast–Slow (Different Speed)
