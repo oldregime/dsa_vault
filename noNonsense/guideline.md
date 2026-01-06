@@ -23,3 +23,14 @@ c. driver.java / driver.py – three problems only (Easy → Med → Med+) with 
 | **13. Stack**                            | Next greater/valid parentheses      | Valid Parentheses, Daily Temperatures, Largest Rectangle                |
 | **14. Dynamic Programming (Tabulation)** | Bottom-up is easier than memo       | Climbing Stairs, Coin Change, Longest Common Subsequence                |
 | **15. Bit Manipulation**                 | XOR tricks                          | Missing Number, Single Number, Count Bits                               |
+
+
+
+must know = list, dict, set, deque, heapq
+for, while, if-else, def
+slicing, sorting, lambda
+
+4️⃣ Important Rule (Memorize This)
+
+Internal logic → always 0-based indexing  this is when asked indices
+Output → convert to required indexing this is when asked positions

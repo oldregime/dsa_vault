@@ -29,9 +29,9 @@ while i < j :
         i+=1
         j-=1
     elif sum < target :
-        i = i + 1
+        i = i + 1 # increase the right to left pointer
     else :
-        j = j - 1
+        j = j - 1 #make sure to decrease the right to left pointer
     
         
 print(ans)
