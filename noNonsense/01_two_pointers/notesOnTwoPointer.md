@@ -65,7 +65,12 @@ When condition fails
 
 
 
-🟢 1. Opposite Direction Pointers
+🟢 1. Bi Directional
 🟡 2. Same Direction (Fast–Slow)
 🔵 3. Sliding Window
 🟣 4. Fast–Slow (Different Speed)
+
+
+## Date = 23/01/2026
+
+## A - BiDirectional
