@@ -1,4 +1,39 @@
-## 125 Valid Palindrom 
+## 125. Valid Palindrome
+
+### Problem Statement
+Given a string `s`, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+### Solution
+
+```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        # Convert to lowercase for case-insensitive comparison
+        s = s.lower()
+        
+        # Initialize two pointers
+        left = 0
+        right = len(s) - 1
+        
+        while left < right:
+            # Skip non-alphanumeric characters from left
+            while left < right and not s[left].isalnum():
+                left += 1
+            
+            # Skip non-alphanumeric characters from right
+            while left < right and not s[right].isalnum():
+                right -= 1
+            
+            # Compare characters
+            if s[left] != s[right]:
+                return False
+            
+            # Move pointers inward
+            left += 1
+            right -= 1
+        
+        return True
+```
 
 ```python 
 class Solution:
@@ -19,32 +54,23 @@ class Solution:
                 j = j-1
         return True
 ```
+### Key Points
 
-### question : 
-    - given a string with various types of charachters and Cases
-    - Ignore all NON-alphanumeric characters
-    - homogenise the Cases 
-    - compare and check if the string is palindrome and return BOOL
+1. **Case Insensitivity**: Convert the entire string to lowercase first
+2. **Skip Non-Alphanumeric**: Use `isalnum()` to check if character is letter or digit
+3. **Two Pointer Technique**: One pointer from start, one from end, moving towards center
+4. **Early Exit**: Return False as soon as mismatch is found
 
-### errors : 
-    1. need to seprately check if both are alphnumeric
-    2. `make sure to write case for both condition`
-       1. condition 1 - not equal return false
-       2. condition 2 - both are equal so so check other char and move on 
+### Algorithm Steps
+1. Convert string to lowercase
+2. Initialize left pointer at index 0, right pointer at last index
+3. While left < right:
+   - Skip non-alphanumeric characters from both ends
+   - Compare characters at both pointers
+   - If mismatch → return False
+   - If match → move both pointers inward
+4. Return True if all comparisons passed
 
-### points to remember : 
-
-### algorithm:
-    1. convert all letters to lower case using keyword s = s.lower()
-    2. initialize pointers
-    3. run a while loop with check that pointer dont cross
-    4. check if value at pointer i is alphnumeric
-       1. if yes = then okay
-       2. if no = skip and move on to next
-    5. do same for j
-    6. check if value at i and j is same 
-    7. else(meaning both are same and we can move on to next chars's) : 
-       1. increment i and decrease j and run the loop
-   
-
-### notes:
+### Time & Space Complexity
+- **Time**: O(n) where n is the length of the string
+- **Space**: O(1) - only using two pointers, no extra space

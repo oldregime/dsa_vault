@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeVault/README.md",
-                "mode": "source",
+                "file": "noNonsense/context.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "context"
             }
           }
         ]
@@ -183,8 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "caf228ed2aaa1cc5",
+  "active": "3c9d6bd87cf8ab24",
   "lastOpenFiles": [
+    "noNonsense/01_two_pointers/skeleton.py",
+    "noNonsense/01_two_pointers/skeletonWhileLoopfromENDS.java",
+    "noNonsense/01_two_pointers/skeletonWhileLoopfromENDS.py",
+    "noNonsense/guideline.md",
+    "noNonsense/01_two_pointers/practiceQuestions/validPalindrom.md",
+    "noNonsense/01_two_pointers/notesOnTwoPointer.md",
+    "noNonsense/01_two_pointers/practiceQuestions/twoSumTwoSortedLeetcode.md",
+    "noNonsense/01_two_pointers/practiceQuestions/twoSumLeetcode.md",
+    "noNonsense/01_two_pointers/practiceQuestions/reverseString.md",
+    "noNonsense/01_two_pointers/practiceQuestions/MoveZeroes.md",
+    "KnowledgeVault/README.md",
     "KnowledgeVault/02-concepts/OOPS",
     "README.md"
   ]
