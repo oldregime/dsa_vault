@@ -153,13 +153,13 @@ def fast_slow(head):
 | 1 | 344. Reverse String | A | Easy | ✅ | - | - |
 | 2 | 125. Valid Palindrome | A | Easy | ✅ | - | - |
 | 3 | 167. Two Sum II | A | Medium | ✅ | - | - |
-| 4 | 283. Move Zeroes | B | Easy | ✅ | - | - |
-| 5 | 26. Remove Duplicates from Sorted Array | B | Easy | ⬜ | - | - |
-| 6 | 27. Remove Element | B | Easy | ⬜ | - | - |
+| 4 | 283. Move Zeroes | B | Easy | ✅ | 2026-05-18 | - |
+| 5 | 26. Remove Duplicates from Sorted Array | B | Easy | ✅ | 2026-01-16 | - |
+| 6 | 27. Remove Element | B | Easy | ✅ | 2026-02-11 | - |
 | 7 | 977. Squares of Sorted Array | A | Easy | ⬜ | - | - |
-| 8 | 11. Container With Most Water | A | Medium | ⬜ | - | - |
+| 8 | 11. Container With Most Water | A | Medium | ✅ | 2026-05-24 | - |
 | 9 | 15. 3Sum | A | Medium | ⬜ | - | - |
-| 10 | 75. Sort Colors | B | Medium | ⬜ | - | - |
+| 10 | 75. Sort Colors | B | Medium | ✅ | 2026-05-18 | - |
 | 11 | 141. Linked List Cycle | D | Easy | ⬜ | - | - |
 | 12 | 876. Middle of Linked List | D | Easy | ⬜ | - | - |
 | 13 | 202. Happy Number | D | Easy | ⬜ | - | - |
@@ -295,9 +295,9 @@ while left < right:   # for opposite-direction
 ## 📈 Pattern Mastery Roadmap
 
 ```
-Current: ████░░░░░░░░░░░ Two Pointers (4/15 problems)
+Current: ████████░░░░░░░ Two Pointers (8/15 problems)
 
-1. Two Pointers       ████░░░░░░░░░░░ [IN PROGRESS]
+1. Two Pointers       ████████░░░░░░░ [IN PROGRESS]
 2. Sliding Window     ░░░░░░░░░░░░░░░ [NEXT]
 3. Fast & Slow        ░░░░░░░░░░░░░░░
 4. Binary Search      ░░░░░░░░░░░░░░░
@@ -307,4 +307,4 @@ Current: ████░░░░░░░░░░░ Two Pointers (4/15 proble
 
 ---
 
-*Last Updated: 2026-01-04*
+*Last Updated: 2026-06-12*
